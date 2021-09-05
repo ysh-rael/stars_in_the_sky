@@ -13,7 +13,7 @@ main {
 	width: 500px;
 	height: 500px;
 	background: linear-gradient(0, #120c56, #000000);
-	margin: 15% auto;
+	margin: auto;
 }
 
 .star {
