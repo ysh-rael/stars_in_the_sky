@@ -1,0 +1,123 @@
+/*Bem vindo, não repare a bagunça.*/
+
+@keyFrames anim-star {
+	from {
+		transform: translateY(0px);
+
+	} to {
+		transform: translateY(-510px);
+	}
+}
+
+main {
+	width: 500px;
+	height: 500px;
+	background: linear-gradient(0, #120c56, #000000);
+}
+
+.star {
+	position: relative;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 100px 10px 2px white,
+	404px 390px 2px white,
+	150px 149px 2px white,
+	304px 210px 2px white,
+	310px 40px  2px white,
+	48px  30px  2px white,
+	450px 100px 2px white,
+	150px 40px 		white,
+	200px 86px 		white,
+	10px  402px 	white,
+	350px 250px  	white,
+	210px 290px 	white,
+	150px 410px 	white,
+	400px 490px 	white,
+	100px 190px 	white,
+	250px 470px 	white,
+	204px 206px 	white,
+	404px 350px 	white;
+	animation: anim-star 10s linear infinite;
+}
+
+.star::after {
+	position: absolute;
+	content: "";
+	top: 510px;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 100px 10px 2px white,
+	404px 390px 2px white,
+	150px 149px 2px white,
+	304px 210px 2px white,
+	310px 40px  2px white,
+	48px  30px  2px white,
+	450px 100px 2px white,
+	150px 40px 		white,
+	200px 86px 		white,
+	10px  402px 	white,
+	350px 250px  	white,
+	210px 290px 	white,
+	150px 410px 	white,
+	400px 490px 	white,
+	100px 190px 	white,
+	250px 470px 	white,
+	204px 206px 	white,
+	404px 350px 	white;
+}
+
+.star2 {
+	position: relative;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 100px 10px 2px white,
+	26px  151px 2px white,
+	65px  157px 2px white,
+	34px  136px 2px white,
+	380px 430px 2px white,
+	480px 42px  2px white,
+	400px 22px  2px white,
+	182px 140px 	white,
+	453px 283px 	white,
+	217px 412px 	white,
+	341px 221px  	white,
+	330px 332px 	white,
+	140px 222px 	white,
+	320px 491px 	white,
+	140px 189px 	white,
+	359px 155px 	white,
+	207px 226px 	white,
+	262px 374px 	white;
+	animation: anim-star 25s linear infinite;
+}
+
+.star2::after {
+	position: absolute;
+	top: 510px;
+	content: "";
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 100px 10px 2px white,
+	26px  151px 2px white,
+	65px  157px 2px white,
+	34px  136px 2px white,
+	380px 430px 2px white,
+	480px 42px  2px white,
+	400px 22px  2px white,
+	182px 140px 	white,
+	453px 283px 	white,
+	217px 412px 	white,
+	341px 221px  	white,
+	330px 332px 	white,
+	140px 222px 	white,
+	320px 491px 	white,
+	140px 189px 	white,
+	359px 155px 	white,
+	207px 226px 	white,
+	262px 374px 	white;
+	
+}
